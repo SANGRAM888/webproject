@@ -1,0 +1,445 @@
+.App {
+  text-align: center;
+}
+.container{
+  font-family: 'Mouse Memoirs', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.roundimg{
+  border-radius: 50%;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.icons .fa{
+  color: red;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+  transition: transform .2s;
+ 
+}
+
+
+.icons .fa:hover{
+  transform: scale(2); 
+}
+.fa-heart-o{
+  color: red;
+}
+.abd{
+  background-image: url("../images/a.jpg");
+ 
+ 
+}
+.bye{
+  background-color: #dfe3e6;
+}
+
+.Home{
+  background-color: whitesmoke;
+ 
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.s{
+  max-width: 18rem;
+}
+.u{
+  max-width: 18rem;
+}
+.h{
+  background-color: silver;
+}
+.h-1{
+  background-color: #000;
+}
+.h-2{
+  background-color: #000;
+}
+.h-3{
+  background-color: rgb(64, 132, 233);
+}
+
+.h:hover{
+  box-shadow: 2px 5px 5px 2px black;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.h-1:hover{
+  box-shadow: 2px 5px 5px 2px black;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.h-2:hover{
+  box-shadow: 2px 5px 5px 2px black;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.h-3:hover{
+  box-shadow: 2px 5px 5px 2px black;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.t:hover{
+  box-shadow: 2px 5px 5px 2px black;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.5s ease-in-out;
+}
+.t{
+  border-radius: 100% 100% 0% 0%;
+ 
+}
+.t-1{
+  background-color: silver;
+}
+.t-2{
+  background-color: rgb(64, 132, 233) ;
+}
+.t-3{
+  background-color: black;
+}
+.card-img-top{
+  border-radius: 100% 100% 100% 100%;
+}
+.card-base{
+  border-radius: 100% 100% 100% 100%;
+}
+.web .col-lg-2{
+  
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+}
+.marketing {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row-x {
+ 
+  display: flex;
+  
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.header-x{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("../images/car2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ 
+}
+.text-xx{
+  width: 90% ;
+  color: #fff;
+  position: absolute;
+  top: 93%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+  text-align: bottom;
+} 
+.textt-xx{
+  width: 90% ;
+  color: #fff;
+  position: absolute;
+  top: 93%;
+  left: 110%;
+  transform: translate(-50%,-50%);
+  text-align: bottom;
+} 
+.te{
+  width: 90% ;
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 100%;
+  transform: translate(-50%,-50%);
+  text-align: bottom;
+} 
+.tes{
+  width: 90% ;
+  color: rgb(13, 13, 13);
+  position: absolute;
+  top: 25%;
+  left: 100%;
+  transform: translate(-50%,-50%);
+  text-align: bottom;
+} 
+.tes1{
+  width: 90% ;
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  text-align: bottom;
+} 
+.tes2{
+  width: 90% ;
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+  text-align: bottom;
+} 
+.tes3{
+  width: 90% ;
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 105%;
+  transform: translate(-50%,-50%);
+  text-align: bottom;
+} 
+.hoverx h1{
+  font-size: 70px;
+  color: rgb(246, 243, 243);
+  transition: color 0.5s;
+  transition: font-size 0.5s;
+}  
+.hoverx h1:hover{
+  font-size: 85px;
+  color: silver;
+}  
+
+.carousel-indicators{
+  margin-bottom: -50px;
+}
+.carousel-indicators img{
+  width: 100%;
+}
+.carousel-indicators [data-bs-target]{
+  width: 500px;
+}
+
+.cardetail-infohead-sec {
+  color: #565655;
+  font-family: "Barlow Condensed",arial;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 25px 0;
+  background-color: #f4f4f4;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.cardetail-infohead-sec .nameprices-crtfedmodelkmsfuel {
+  display: flex;
+  margin-left: -18px;
+  margin-right: -18px;
+}
+.cardetail-infohead-sec .name-prices {
+  width: 100%;
+  max-width: 400px;
+}
+.cardetail-infohead-sec .nameprices-crtfedmodelkmsfuel>* {
+  padding: 0 18px;
+}
+.cardetail-infohead-sec .certified-modelkmsfuel {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+
+ul.cardetail-summary-list {
+  font-family: Barlow,arial;
+  font-size: 18.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -17px;
+}
+ul.cardetail-summary-list>li .icon {
+  width: 68px;
+  height: 69px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 12px;
+  padding: 10px 8px;
+  margin: 0 0 10px;
+  margin-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+}
+.container-op {
+  width: 92%;
+  max-width: 1510px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cardetails-cntnt-sec .cntnt-items {
+  width: 95%;
+  max-width: 1050px;
+  margin: 0 auto;
+  font-family: Barlow,arial;
+  font-size: 18.5px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.cardetails-cntnt-sec .cntnt-items .cntnt-item {
+  padding: 70px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+.cardetails-cntnt-sec{
+  padding: 250px;
+}
+ul.cardetail-summary-list>li {
+  width: 20%;
+  padding: 22px 17px;
+}
+.specs{
+  display: none;
+}
+
+
+
+.test1 img{
+  transition: 0.5s all ease-in-out;
+}
+.test1:hover img{
+  transform: scale(1.3);
+}
+.test2 img{
+  transition: 0.5s all ease-in-out;
+}
+.test2:hover img{
+  transform: scale(1.3);
+}
+.test3 img{
+  transition: 0.5s all ease-in-out;
+}
+.test3:hover img{
+  transform: scale(1.3);
+}
+.test4 img{
+  transition: 0.5s all ease-in-out;
+}
+.test4:hover img{
+  transform: scale(1.3);
+}
+.test5 img{
+  transition: 0.5s all ease-in-out;
+}
+.test5:hover img{
+  transform: scale(1.3);
+}
+.test6 img{
+  transition: 0.5s all ease-in-out;
+}
+.test6:hover img{
+  transform: scale(1.3);
+}
+
+
+
+@media (max-width: 850px){
+ .hide-767{
+  display: none;
+ }
+ .specs{
+  display: flex;
+  padding: 85px;
+}
+.j{
+  height: 100%;
+}
+.textt-xx{
+  display: none
+}
+.text-xx{
+  display: none
+}
+.te{
+  display: none
+}
+.tes{
+  display: none
+}
+.tes1{
+  display: none
+}
+.tes2{
+  display: none
+}
+.tes3{
+  display: none
+}
+}
+
+
+
+ 
+
+.q2{
+  background-image:url('https://cdn.bigboytoyz.com/new-version/attributes/calender1-icon.png');
+}
+.q1{
+background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/cartype-icon.png');
+}
+.q3{
+  background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/engine-icon.png');
+  }
+  .q4{
+    background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/setting-icon.png');
+    }
+     .q5{
+      background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/profile-men-icon.png');
+      }
+      .q6{
+        background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/doors.png');
+        }     
+        .q7{
+          background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/wheeldrive-icon.png');
+          }     
+          .q8{
+            background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/seating-capacity.png');
+            }     
+            .q9{
+              background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/calender-icon.png');
+              }  
+              .q10{
+                background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/fueltype-icon.png');
+                }  
+                .q11{
+                  background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/kms-done.png');
+                  } 
+                  .q12{
+                    background-image: url('https://cdn.bigboytoyz.com/new-version/attributes/exterior-color.png');
+                    }                   
+
+
+
+                               
